@@ -17,6 +17,11 @@ class Solution {
         Map<String, Integer> map = new HashMap<String, Integer>();
         map.put(name, phoneNumber);
 
+        boolean hasKey = map.containsKey("Teste");
+        if(!hasKey){
+            System.out.println("Not found");
+        }
+
         System.out.println(map);
     }
 }
