@@ -1,3 +1,4 @@
+package Simple_Input;
 import java.io.*;
 import java.util.*;
 
